@@ -4,7 +4,7 @@
 } 
 
 .streak {
-	text-align: right;
+	text-align: center;
 }
 .nav-link1{
 	padding-right:5em;
@@ -20,6 +20,7 @@
 .image1{
 	width: 1000px;
 	height: 700px;
+<<<<<<< HEAD
 }
 
 .metals {
@@ -48,4 +49,3 @@
 .suggestedimg {
 	width:300px;
 	height: 300px;
-}
