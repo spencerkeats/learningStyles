@@ -9,7 +9,15 @@
 .nav-link1{
 	padding-right:5em;
 }
+.nav-link2{
+	padding-right: 5em;
+}
 
 .current{
 	padding:2em;
+}
+
+.image1{
+	width: 1000px;
+	height: 700px;
 }
