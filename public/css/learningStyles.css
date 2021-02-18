@@ -24,20 +24,28 @@
 
 .metals {
 	display: inline-block;
-	width:80%;
+	width:60%;
+
 }
 
 .image2 {
 	display: inline-block;
-	width:50px;
-	height: 300px;
+	width:100px;
+	height: 500px;
+	margin-right: 300px
 }
 
 .description {
 	width: 1000px;
 }
 
-.icons{
+.navimage{
 	width:20px;
 	height: 20px;
+	margin-right: 10px;
+}
+
+.suggestedimg {
+	width:300px;
+	height: 300px;
 }
