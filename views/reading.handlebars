@@ -35,10 +35,10 @@
 </div>
 
 <div class="container">
-
+	{{#each lessons}}
 	<div class="jumbotron">
 			<h1 class="heading">
-				Chemistry
+				{{title}}
 			</h1>
 		</div>
 	<div>
@@ -50,9 +50,9 @@
 	<div class="container">
  		 <h2>Periodic Table</h2>
  		 
- 		 <img src="images/periodictable.png" class="image1">
+ 		 <img src={{image}} class="image1">
  		 
- 		 <h2 class= "description"> The periodic table is a tabular arrangement of chemical elements that is arranged by increasing atomic number and groups elements according to recurring properties. The seven rows of the periodic table are called periods. </h2>
+ 		 <h2 class= "description"> {{description}} </h2>
  		 
  		 <h2 class = "description"> The table has seven rows and 18 columns. Each row represents one period; the period number of an element indicates how many of its energy levels house electrons. Sodium, for instance, sits in the third period, which means a sodium atom typically has electrons in the first three energy levels. Moving down the table, periods are longer because it takes more electrons to fill the larger and more complex outer levels.</h2>
 
@@ -64,6 +64,7 @@
  
  		 <img src="images/alkali.jpg" class = "image2" style= "float:right" >
 
+ 		 {{/each}}
 		</div>
 
 	</body>
