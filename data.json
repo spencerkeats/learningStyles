@@ -3,7 +3,8 @@
 		{
 			"title": "Chemistry",
 			"description": "The periodic table is a tabular arrangement of chemical elements that is arranged by increasing atomic number and groups elements according to recurring properties. The seven rows of the periodic table are called periods.",
-			"image": "images/periodictable.png"			
+			"image": "images/periodictable.png",
+			"video": "https://www.youtube.com/embed/rz4Dd1I_fX0"
 		}
 	]
 
