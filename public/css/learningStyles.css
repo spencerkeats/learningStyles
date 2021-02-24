@@ -55,3 +55,14 @@
 	text-align: right;
 	padding-left: 70em;
 }
+.jumbotron{
+	text-align:center;
+}
+.containerlog{
+	padding: 2em;
+	padding-right: 80px;
+
+}
+
+.Create{text-align: center;}	
+#log{vertical-align: center;}
