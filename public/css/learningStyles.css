@@ -6,52 +6,101 @@
 .streak {
 	text-align: center;
 }
-.nav-link1{
-	padding-right:5em;
-}
-.nav-link2{
-	padding-right: 5em;
-}
 
 .current{
 	padding:2em;
 }
 
 .image1{
-	width: 1000px;
-	height: 700px;
-<<<<<<< HEAD
+	width: 300px;
+	height: 200px;
+
 }
 
 .metals {
 	display: inline-block;
-	width:60%;
+	width:70%;
+	font-size: xx-small;
 
 }
 
 .image2 {
 	display: inline-block;
-	width:100px;
-	height: 500px;
-	margin-right: 300px
+	width:25px;
+	height: 100px;
+	margin-right: 50px
 }
 
 .description {
-	width: 1000px;
+	width: 300px;
+	font-size: xx-small;
 }
 
 .navimage{
-	width:20px;
-	height: 20px;
-	margin-right: 10px;
+	width:10px;
+	height: 10px;
 }
 
 .suggestedimg {
-	width:200px;
-	height: 200px;
+	width:100px;
+	height: 100px;
 }
 
 .streaklesson {
 	text-align: right;
-	padding-left: 70em;
+	font-size: xx-small;
+	margin-right: 20px;
+}
+
+.nav-link {
+	font-size: small;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right:none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
