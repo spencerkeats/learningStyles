@@ -5,6 +5,5 @@
  var data = require('../data.json');
 
 exports.view = function(req, res){
-  res.render('reading',data);
+  res.render('settings',data);
 };
-
