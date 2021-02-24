@@ -10,6 +10,11 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var reading = require('./routes/reading');
+<<<<<<< Updated upstream
+var visual = require('./routes/visual')
+=======
+var login = require ('./routes/login');
+>>>>>>> Stashed changes
 // Example route
 // var user = require('./routes/user');
 
@@ -37,6 +42,11 @@ if ('development' == app.get('env')) {
 
 app.get('/', index.view);
 app.get('/reading', reading.view);
+<<<<<<< Updated upstream
+app.get('/visual', visual.view);
+=======
+app.get('/login',login.view);
+>>>>>>> Stashed changes
 // Example route
 // app.get('/users', user.list);
 
