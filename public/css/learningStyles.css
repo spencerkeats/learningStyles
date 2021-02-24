@@ -1,10 +1,13 @@
 
+<<<<<<< HEAD
 .heading {
 	text-align: center;
 	width: 300px;
 	height: 10px;
 } 
 
+=======
+>>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
 .streak {
 	text-align: center;
 }
@@ -58,9 +61,13 @@
 	font-size: small;
 }
 
+<<<<<<< HEAD
 /* Nav bar */
 
 ul {
+=======
+.navbar-nav{
+>>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -100,6 +107,7 @@ li.dropdown {
   z-index: 1;
 }
 
+<<<<<<< HEAD
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -122,15 +130,38 @@ li.dropdown {
 
 
 /* Change the link color to #111 (black) on hover */
+=======
+	/*padding-left: 70em;*/
+
+
+>>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
 .jumbotron{
-	text-align:center;
+	align-items: center;
+	text-align: center;
 }
-.containerlog{
-	padding: 2em;
-	padding-right: 80px;
+
+.Create{
+	text-align: center;
+}
+
+.login{
+	padding: 35px;
+	padding-left: 10px;
+}
+
+#mylogbttn{
+	
+	margin-top: 10px;
 
 }
 
+<<<<<<< HEAD
 .Create{text-align: center;}	
 #log{vertical-align: center;}
 
+=======
+.creating{
+	padding: 35px;
+	padding-left: 10px;
+}
+>>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
