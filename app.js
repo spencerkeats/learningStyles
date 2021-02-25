@@ -52,9 +52,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', index.view);
+app.get('/index', index.view);
 
-app.get('/reading', reading.view);
+app.get('/reading/:id', reading.view);
 
 
 app.get('/visual', visual.view);
@@ -67,7 +67,7 @@ app.get('/settings', settings.view);
 //<<<<<<< Updated upstream
 app.get('/visual', visual.view);
 //=======
-app.get('/login',login.view);
+app.get('/',login.view);
 app.get('/create', create.view);
 //>>>>>>> Stashed changes
 
