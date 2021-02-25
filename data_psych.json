@@ -1,0 +1,11 @@
+{
+	"lessons": [
+		{
+			"title": "Psychology",
+			"description": "Brain to brain stuff",
+			"image": "/images/psychology.png",
+			"video": "https://www.youtube.com/embed/rz4Dd1I_fX0"
+		}
+	]
+
+	}
