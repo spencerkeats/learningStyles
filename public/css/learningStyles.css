@@ -16,14 +16,19 @@
 }
 
 .image1{
-	width: 300px;
-	height: 200px;
+	width: 500px;
+	height: 500px;
 
 }
 
-.metals {
+.video1 {
+	width: 300px;
+	height: 200px;
+}
+
+.information {
 	display: inline-block;
-	width:70%;
+	width:100%;
 	font-size: xx-small;
 
 }
@@ -37,11 +42,16 @@
 
 .description {
 	width: 300px;
-	font-size: xx-small;
+	font-size: x-small;
 }
 
 .image1{
-	width:100px;
+	width:300px;
+	height: 100px;
+}
+
+.image2{
+	width: 100px;
 	height: 100px;
 }
 
@@ -90,6 +100,11 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
+.dropbtn{
+	color: white;
+	background-color: #333;
+}
+
 li a:hover, .dropdown:hover .dropbtn {
   background-color: black;
 }
@@ -122,6 +137,13 @@ li.dropdown {
   display: block;
 }
 /*__________________________________________________________*/
+/*__________________quiz witing page_______________________*/
+
+
+
+
+/*__________________________________________________________*/
+
 
 
 .jumbotron{
