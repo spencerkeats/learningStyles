@@ -54,7 +54,7 @@ if ('development' == app.get('env')) {
 
 app.get('/index', index.view);
 
-app.get('/reading/:id', reading.view);
+app.get('/reading', reading.view);
 
 
 app.get('/visual', visual.view);
