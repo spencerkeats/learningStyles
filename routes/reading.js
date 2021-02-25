@@ -24,7 +24,7 @@ exports.view = function(req, res){
 		res.render('reading', history);
 	}
 	else if (lesson == "math") {
-		res.render('reading', mathh);
+		res.render('reading', math);
 	}
 	else if (lesson == "psychology") {
 		res.render('reading', psychology);
