@@ -19,6 +19,8 @@ var login = require ('./routes/login');
 
 var settings = require('./routes/settings');
 
+var writing = require('./routes/writing');
+
 
 //<<<<<<< Updated upstream
 var visual = require('./routes/visual')
@@ -62,6 +64,8 @@ app.get('/visual', visual.view);
 app.get('/login',login.view);
 
 app.get('/settings', settings.view);
+
+app.get('/writing', writing.view);
 
 
 //<<<<<<< Updated upstream
