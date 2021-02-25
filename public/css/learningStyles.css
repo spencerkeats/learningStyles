@@ -72,7 +72,7 @@
 
 /* Nav bar / style button _____________________________________________ */
 
-ul {
+.navbar-nav {
 
   list-style-type: none;
   margin: 0;
