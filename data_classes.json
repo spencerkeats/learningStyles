@@ -1,0 +1,33 @@
+{
+	"butt": [
+		{
+			"bTitle": "Chemistry",
+			"bImage": "/images/science.png"
+		},
+		{
+			"bTitle": "Economics",
+			"bImage": "/images/economics.png"
+
+		},
+		{
+			"bTitle": "English",
+			"bImage": "/images/english.png"
+		
+		},
+		{
+			"bTitle": "History",
+			"bImage": "/images/history.png"
+
+		},
+		{
+			"bTitle": "Math",
+			"bImage": "/images/math.png"
+			
+		},
+		{
+			"bTitle": "Psychology",
+			"bImage": "/images/psychology.png"
+		}
+	]
+
+	}

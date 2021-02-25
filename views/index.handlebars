@@ -56,45 +56,18 @@
 			<button type="submit" class="btn btn-primary">Go!</button>
 		</form>
 		</div>
-
 	
 
 	<div class="container">
+		
  		 <h2>Top Lessons</h2>
-
+ 		 {{#each butt}}
  		 <li class = "suggested"> 
- 		 	<a href="#"> Math </a>
- 		 	<img class = "suggestedimg" src="images/math.png">
+ 		 	<p> {{bTitle}} </p>
+ 		 	<img class = "image1" src={{bImage}}>
  		 </li>
-
- 		 <li class = "suggested"> 
- 		 	<a href="#"> Science </a>
- 		 	<img class = "suggestedimg" src="images/science.png">
- 		 </li>
-
- 		 <li class = "suggested"> 
- 		 	<a href="#"> History </a>
- 		 	<img class = "suggestedimg" src="images/history.png">
- 		 </li>
-
- 		 <br>
-
- 		 <li class = "suggested"> 
- 		 	<a href="#"> English </a>
- 		 	<img class = "suggestedimg" src="images/english.png">
- 		 </li>
-
-  		 <li class = "suggested"> 
- 		 	<a href="#"> Psychology </a>
- 		 	<img class = "suggestedimg" src="images/psychology.png">
- 		 </li>
-
- 		 <li class = "suggested"> 
- 		 	<a href="#"> Economics </a>
- 		 	<img class = "suggestedimg" src="images/economics.png">
- 		 </li>
-
- 		 	
+ 		
+ 		 	 {{/each}}
 		</div>
 
 	</body>
