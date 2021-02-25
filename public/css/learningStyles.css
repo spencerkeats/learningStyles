@@ -40,12 +40,7 @@
 	font-size: xx-small;
 }
 
-.navimage{
-	width:10px;
-	height: 10px;
-}
-
-.suggestedimg {
+.image1{
 	width:100px;
 	height: 100px;
 }
@@ -60,7 +55,6 @@
 	font-size: small;
 }
 
-<<<<<<< HEAD
 .nav-link1 {
 	padding-right: 10px;
 }
