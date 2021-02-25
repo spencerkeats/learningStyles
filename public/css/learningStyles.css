@@ -1,13 +1,12 @@
 
-<<<<<<< HEAD
+
 .heading {
 	text-align: center;
 	width: 300px;
 	height: 10px;
 } 
 
-=======
->>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
+
 .streak {
 	text-align: center;
 }
@@ -61,13 +60,13 @@
 	font-size: small;
 }
 
-<<<<<<< HEAD
+
 /* Nav bar */
 
-ul {
-=======
+
+
 .navbar-nav{
->>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
+
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -122,46 +121,47 @@ li.dropdown {
   display: block;
 }
 
-
-
-
-
-
-
-
 /* Change the link color to #111 (black) on hover */
 =======
 	/*padding-left: 70em;*/
 
 
->>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
-.jumbotron{
-	align-items: center;
-	text-align: center;
+ .logheading{
+ 	padding-top: 20px;
+ }
+ .info{
+ 	padding-top: 20px;
+ 	text-align: center;
+ }
+
+#Submit{
+	
+	margin-top: 20px;
+	margin left: 100em;
+
 }
 
-.Create{
-	text-align: center;
+.Types{
+	font-weight: bold;
+}
+
+#Back{
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .login{
-	padding: 35px;
+	padding:35px;
 	padding-left: 10px;
 }
 
 #mylogbttn{
 	
-	margin-top: 10px;
-
+	margin-top: 20px;
+	margin-left: 35px;
 }
-
-<<<<<<< HEAD
-.Create{text-align: center;}	
-#log{vertical-align: center;}
-
-=======
 .creating{
 	padding: 35px;
 	padding-left: 10px;
 }
->>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
