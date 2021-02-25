@@ -60,6 +60,7 @@
 	font-size: small;
 }
 
+<<<<<<< HEAD
 .nav-link1 {
 	padding-right: 10px;
 }
@@ -72,6 +73,14 @@
 /* Nav bar / style button _____________________________________________ */
 
 ul {
+=======
+
+/* Nav bar */
+
+
+
+.navbar-nav{
+>>>>>>> 7f5c2e5661825a712b7a3e244b256bcbfc6a3ac5
 
   list-style-type: none;
   margin: 0;
@@ -128,25 +137,53 @@ li.dropdown {
 }
 /*__________________________________________________________*/
 
+<<<<<<< HEAD
 .jumbotron{
 	align-items: center;
 	text-align: center;
+=======
+/* Change the link color to #111 (black) on hover */
+=======
+	/*padding-left: 70em;*/
+
+
+ .logheading{
+ 	padding-top: 20px;
+ }
+ .info{
+ 	padding-top: 20px;
+ 	text-align: center;
+ }
+
+#Submit{
+	
+	margin-top: 20px;
+	margin left: 100em;
+
+>>>>>>> 7f5c2e5661825a712b7a3e244b256bcbfc6a3ac5
 }
 
-.Create{
-	text-align: center;
+.Types{
+	font-weight: bold;
+}
+
+#Back{
+	background-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .login{
-	padding: 35px;
+	padding:35px;
 	padding-left: 10px;
 }
 
 #mylogbttn{
 	
-	margin-top: 10px;
-
+	margin-top: 20px;
+	margin-left: 35px;
 }
+<<<<<<< HEAD
 
 
 .Create{text-align: center;}	
@@ -158,3 +195,9 @@ li.dropdown {
 	padding-left: 10px;
 }
 
+=======
+.creating{
+	padding: 35px;
+	padding-left: 10px;
+}
+>>>>>>> 7f5c2e5661825a712b7a3e244b256bcbfc6a3ac5

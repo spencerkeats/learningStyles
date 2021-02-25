@@ -13,14 +13,14 @@
 
 
 <div class="container">
-
+	<a href="/login"> <button id="Back"> Back </button></a>
 	<div class="jumbotron">
 			<h2 class="heading">Create an Account</h2>
-			<h4 class="info"> First Provide us with some info:</h4>
+			<h4 class="info"> Provide us with some info:</h4>
 		</div>
 		<div class="creating" style="text-align: center;">
 		<ul style="list-style-type: none;">
-  			<li> Name: <input type="text" name="Name" size="30"
+  			<li> Name: <input type="text" id="Name" name="Name" size="30"
      		 maxlength="25"></li>
  	 <br>
   			<li> Email: <input type="text" name="Email" size="30" 
@@ -29,6 +29,15 @@
     		<li> Password: <input type="Password" name="Password" size="30"
      		 maxlength="25"></li>
 			</ul>
+
+<div class="Types">			
+	<input type="checkbox" name="LearningType" value="Reading/Writing"> Reading/Writing <br>  
+	<input type="checkbox" name="LearningType" value="Auditory"> Auditory <br>
+	<input type="checkbox" name="LearningType" value="Visual"> Visual <br>
+	<input type="checkbox" name="LearningType" value="Hands on"> Hands on <br>
+</div>
+
+
 			<a href="/"> <button id="Submit"> Create!</button></a>
 		</div>
 </div>
