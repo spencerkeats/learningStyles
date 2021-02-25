@@ -11,7 +11,7 @@ var handlebars = require('express3-handlebars')
 var index = require('./routes/index');
 
 var reading = require('./routes/reading');
-<<<<<<< HEAD
+
 
 var visual = require('./routes/visual')
 
@@ -19,14 +19,14 @@ var login = require ('./routes/login');
 
 var settings = require('./routes/settings');
 
-=======
+
 //<<<<<<< Updated upstream
 var visual = require('./routes/visual')
 //=======
 var login = require ('./routes/login');
 var create = require ('./routes/create');
 //>>>>>>> Stashed changes
->>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
+
 // Example route
 // var user = require('./routes/user');
 
@@ -55,7 +55,7 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 
 app.get('/reading', reading.view);
-<<<<<<< HEAD
+
 
 app.get('/visual', visual.view);
 
@@ -63,14 +63,14 @@ app.get('/login',login.view);
 
 app.get('/settings', settings.view);
 
-=======
+
 //<<<<<<< Updated upstream
 app.get('/visual', visual.view);
 //=======
 app.get('/login',login.view);
 app.get('/create', create.view);
 //>>>>>>> Stashed changes
->>>>>>> b4cd009e7fb19107ab7d42bebf3db279d2ead711
+
 // Example route
 // app.get('/users', user.list);
 
