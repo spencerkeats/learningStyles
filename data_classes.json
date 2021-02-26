@@ -2,32 +2,42 @@
 	"butt": [
 		{
 			"bTitle": "Chemistry",
-			"bImage": "/images/science.png"
+			"bImage": "/images/science.png",
+			"location": "reading/chemistry"
 
 		},
 		{
 			"bTitle": "Economics",
-			"bImage": "/images/economics.png"
+			"bImage": "/images/economics.png",
+			"location": "reading/economics"
 
 		},
 		{
 			"bTitle": "English",
-			"bImage": "/images/english.png"
+			"bImage": "/images/english.png",
+			"location": "reading/english"
+
 		
 		},
 		{
 			"bTitle": "History",
-			"bImage": "/images/history.png"
+			"bImage": "/images/history.png",
+			"location": "reading/history"
+
 
 		},
 		{
 			"bTitle": "Math",
-			"bImage": "/images/math.png"
+			"bImage": "/images/math.png",
+			"location": "reading/math"
+
 			
 		},
 		{
 			"bTitle": "Psychology",
-			"bImage": "/images/psychology.png"
+			"bImage": "/images/psychology.png",
+			"location": "reading/psychology"
+
 		}
 	]
 

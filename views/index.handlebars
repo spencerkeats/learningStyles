@@ -44,7 +44,7 @@
 			<button type="button"> <a href="/reading/chemistry"> Periodic Table </a></button>
 			<button type="button"> <a href="/reading/economics"> Economics </a></button>
 </div>
-	<body>
+	<!-- <body>
 		<h4>
 			Search for a topic
 		</h4>
@@ -53,7 +53,8 @@
 			<button type="submit" class="btn btn-primary">Go!</button>
 		</form>
 		</div>
-	
+	>
+-->
 
 	<div class="container">
 		
@@ -61,8 +62,9 @@
  		 {{#each butt}}
  		 <li class = "suggested"> 
  		 	<p> {{bTitle}} </p>
- 		 	<img class = "image2" src={{bImage}} href = {{location}} >
-
+ 		 <a href = {{location}}>
+ 		 	<img class = "image2" src={{bImage}} >
+ 		 </a>
 
  		 </li>
  		

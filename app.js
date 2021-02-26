@@ -59,7 +59,7 @@ app.get('/index', index.view);
 app.get('/reading/:id', reading.view);
 
 
-app.get('/visual', visual.view);
+app.get('/visual/:id', visual.view);
 
 app.get('/login',login.view);
 
