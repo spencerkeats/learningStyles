@@ -1,4 +1,12 @@
 
+body{
+
+background-image: url('/images/cork-board.png');
+
+}
+
+
+
 
 .heading {
 	text-align: center;
@@ -147,14 +155,10 @@ li.dropdown {
 
 
 .jumbotron{
-	align-items: center;
 	text-align: center;
+	background-color: rgb(255 255 255 / 0%);
 }
 
-
- .logheading{
- 	padding-top: 20px;
- }
  .info{
  	padding-top: 20px;
  	text-align: center;
@@ -179,17 +183,30 @@ li.dropdown {
 .login{
 	padding:35px;
 	padding-left: 10px;
+
 }
 
 #mylogbttn{
 	
 	margin-top: 20px;
 	margin-left: 35px;
+	background-color: #714e12;
 }
 
 
 
-.Create{text-align: center;}	
+.Create{text-align: center;
+}	
+
+#make{
+	background-color: white;
+	color:black;
+	width:170px;
+	height:40px;
+	border-color: #714e12;
+}
+
+
 #log{vertical-align: center;}
 
 
@@ -203,4 +220,3 @@ li.dropdown {
 	padding: 35px;
 	padding-left: 10px;
 }
-
