@@ -1,8 +1,20 @@
 
+.quizform{
+
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+
 body{
 
 background-image: url('/images/cork-board.png');
 
+}
+.jumbotron{
+	text-align: center;
+	background-color: rgb(255 255 255 / 0%);
+	font-weight: bold;
 }
 
 
@@ -12,11 +24,13 @@ background-image: url('/images/cork-board.png');
 	text-align: center;
 	width: 300px;
 	height: 10px;
+	font-weight: bold;
 } 
 
 
 .streak {
 	text-align: center;
+	color: #3b1104;
 }
 
 .current{
@@ -37,7 +51,8 @@ background-image: url('/images/cork-board.png');
 .information {
 	display: inline-block;
 	width:100%;
-	font-size: xx-small;
+	font-weight: bold; 
+	font-size: 15px;
 
 }
 
@@ -50,7 +65,8 @@ background-image: url('/images/cork-board.png');
 
 .description {
 	width: 300px;
-	font-size: x-small;
+	font-weight: bold; 
+	font-size: 20px;
 }
 
 .image1{
@@ -65,8 +81,10 @@ background-image: url('/images/cork-board.png');
 
 .streaklesson {
 	text-align: right;
-	font-size: xx-small;
+	font-size: medium;
 	margin-right: 20px;
+	font-weight: bold;
+	color:#3b1104;
 }
 
 .nav-item {
@@ -154,10 +172,7 @@ li.dropdown {
 
 
 
-.jumbotron{
-	text-align: center;
-	background-color: rgb(255 255 255 / 0%);
-}
+
 
  .info{
  	padding-top: 20px;
@@ -213,10 +228,6 @@ li.dropdown {
 .creating{
 	padding: 35px;
 	padding-left: 10px;
+	font-weight: bold;
 }
 
-
-.creating{
-	padding: 35px;
-	padding-left: 10px;
-}

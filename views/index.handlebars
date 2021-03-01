@@ -31,19 +31,21 @@
 <div class="container">
 
 	<div class="jumbotron">
-			<h1 class="heading">
+			<h1 class="heading" style="font-weight: bold; font-family:'Courier New', monospace;">
 				Welcome!
 			</h1>
+			<br>
 			<h3 class="streak">
 				Current Streak: 0
 			</h3>
 		</div>
 	<div>
 		<div class = "curent">
-		<h3> Current Topics: </h3>
+		<h3  style="font-weight: bold"> Current Topics: </h3>
 			<button type="button"> <a href="/reading/chemistry"> Periodic Table </a></button>
 			<button type="button"> <a href="/reading/economics"> Economics </a></button>
 </div>
+
 	<!-- <body>
 		<h4>
 			Search for a topic
@@ -57,11 +59,13 @@
 -->
 
 	<div class="container">
+
+		<br>
 		
- 		 <h2>Top Lessons</h2>
+ 		 <h3 style="font-weight: bold">Top Lessons: </h3>
  		 {{#each butt}}
  		 <li class = "suggested"> 
- 		 	<p> {{bTitle}} </p>
+ 		 	<p style="font-weight: bold; font-size: 20px;" > {{bTitle}} </p>
  		 <a href = {{location}}>
  		 	<img class = "image2" src={{bImage}} >
  		 </a>
