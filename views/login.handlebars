@@ -9,19 +9,27 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+
+	{{> facebook}}
+<script src="/js/facebook.js"></script>
+
 </head>
 	<body>	
 <div class="container">
 
 	<div class="jumbotron">
 			<h1 style="font-family:'Courier New', monospace; font-weight: bold;"> Learning Styles </h1>
-			<br>
+			
 			<h2 class="logheading" style="text-align: center;font-weight: bold">Login</h2>
 			<h4 style="text-align: center;font-weight: bold"> Welcome Back!</h4>
+			<br>
+			<p class="facebookLogin">login through Facebook:
+			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+</p>
+
 		</div>
-
-
-	<div class="login" style="text-align: center; font-weight: bold;">
+<div class="login" style="text-align: center; font-weight: bold;">
 		<ul style="list-style-type: none;">
   			<li style="font-size: 20px;" > Email: <input type="text" name="Email" size="20"
      		 maxlength="25"></li>
@@ -30,7 +38,11 @@
     		 maxlength="25"></li>
 			</ul>
 			<a href="/index"> <button id="mylogbttn"> Login!</button></a>
+			<br>
+			
 		</div>
+
+		
 	<div class="Create">
 		<button id="make"><a href="/create"><h4 style="text-align: center;"> Create an account </h4></a></button>
 </div>

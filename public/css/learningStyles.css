@@ -195,11 +195,6 @@ li.dropdown {
 	margin-bottom: 5px;
 }
 
-.login{
-	padding:35px;
-	padding-left: 10px;
-
-}
 
 #mylogbttn{
 	
@@ -231,3 +226,8 @@ li.dropdown {
 	font-weight: bold;
 }
 
+.login{
+	margin: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
