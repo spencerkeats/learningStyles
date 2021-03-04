@@ -14,16 +14,22 @@ function buttonClick(){
 	
 	var buttonID = $(this).closest(".navButton").attr('id');
 	var url = window.location.href;
-	var current = url.substring(30);
+	var l = url.length
+	var slash = url.lastIndexOf('/')
 	var n = buttonID.lastIndexOf('N');
+	
+	var lastZero = url.lastIndexOf(0);
+	var site = url.substring(0, lastZero + 1);
+
 	var next = $(this).closest(".navButton").attr('id').substring(0,n);
-
-
+	var pageNum = site.length + next.length + 2;
+	var current = url.substring(slash + 1);
 	console.log(buttonID);
 	console.log(current);
-	console.log(n);
+	console.log(slash);
 	console.log(next);
+	console.log(site);
 	// $("#" + buttonID).();
-	window.location.href = url.substring(0,22) + next + "/" + current;
+	window.location.href =  site + "/"+ next + "/" + current;
 	
 }
