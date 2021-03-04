@@ -10,6 +10,7 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/quiz.js"></script>
 </head>
 
 
@@ -37,7 +38,7 @@
   					</div>
 				</div>
 				
-				<h5 class = "streaklesson"> Current Streak: 1</h5>
+				<button class = "streaklesson"> Current Streak: 1</button>
 			
 	</div>
 
@@ -45,14 +46,14 @@
 		{{#each lessons}}
 		
 		<div class="jumbotron">
-			<h1 class="heading">
+			<h1 class="heading" id = "">
 				{{title}}
 			</h1>
 		</div>
 
 	</div>
 
-	<div class="container">
+	<div class="container" id="quizBody">
  		 
  		 <img src={{image}} class="image1">
  		 
@@ -64,46 +65,52 @@
 	<div class="quizform">
 
 	<h2 style="font-weight: bold;"> Questions! </h2>
+<!---->
 
-	<h4> 1. What is the first element on the periodic table? </h4>
-		<h5> a. Boron </h5>
-		<h5> b. Hydrogen </h5>
-		<h5> c. Carbon </h5>
-		<h5> d. Helium </h5>
-
-		<br>
-
-	<h4> 2. What group does Sulfur belong to? </h4>
-		<form class="form-inline" action="/topic.php">
-			<input type="topic" >
-			<button type="submit" class="btn btn-primary">check</button>
-		</form>
+	<div id="question1">
+	{{#each lessons}}
+		<h4> {{question1}} </h4>
+			<button class="quizOption" id="q1optionA">{{question1OptionA}}</button>
+			<button class="quizOption" id="q1optionB">{{question1OptionB}}</button>
+			<button class="quizOption" id="q1optionC">{{question1OptionC}}</button>
+			<button class="quizOption" id="q1optionD">{{question1OptionD}}</button>
+	</div>
 
 		<br>
-	
-	<h4> 1. Which element is considered a halogen? </h4>
-		<h5> a. Helium </h5>
-		<h5> b. Fluorine </h5>
-		<h5> c. Oxygen </h5>
-		<h5> d. Chlorine </h5>
-
+	<div id="question2">
+		<h4>{{question2}}</h4>
+			<form class="form-inline" action="/topic.php">
+				<input type="topic" >
+				<button type="submit" class="btn btn-primary">check</button>
+			</form>
+	</div>
 		<br>
-	<h4> 2. What group does Sulfur belong to? </h4>
-		<form class="form-inline" action="/topic.php">
-			<input type="topic" >
-			<button type="submit" class="btn btn-primary">check</button>
-		</form>
-
+	<div id="question3">
+		<h4>{{question3}}</h4>
+			<button class="quizOption" id="q3optionA"> {{question3OptionA}}</button>
+			<button class="quizOption" id="q3optionB"> {{question3OptionB}} </button>
+			<button class="quizOption" id="q3optionC"> {{question3OptionC}} </button>
+			<button class="quizOption" id="q3optionD"> {{question3OptionD}} </button>
+	</div>
 		<br>
 
+	<div id="question4">
+		<h4> {{question4}}</h4>
+			<form class="form-inline" action="/topic.php">
+				<input type="topic" >
+				<button type="submit" class="btn btn-primary">check</button>
+			</form>
+	</div>
+		<br>
+		{{/each}}
 	</div>
 
 
 
 
 	<div id="quiz"></div>
-	<button id="submit">Submit Quiz</button>
-	<div id="results"></div>
+	<button id="quizSubmit">Submit Quiz</button>
+	<div id="quizResults"></div>
 
 	
 

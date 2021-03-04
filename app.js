@@ -65,7 +65,7 @@ app.get('/login',login.view);
 
 app.get('/settings', settings.view);
 
-app.get('/writing', writing.view);
+app.get('/writing/:id', writing.view);
 
 
 //<<<<<<< Updated upstream
