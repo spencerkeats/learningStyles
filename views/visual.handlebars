@@ -9,6 +9,7 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/navbar.js"></script>
 </head>
 
 	<div id = "navbar">
@@ -27,9 +28,9 @@
 				<div class="dropdown">
   					<button  class="dropbtn" id = "btnhome">Visual/Auditory</button>
   					<div id="myDropdown" class="dropdown-content">
-   						<a href="/reading/chemistry">Reading/Visual</a>
-    					<a href="/visual/chemistry">Visual/Auditory</a>
-    					<a href="/writing">Hands-On/Writing</a>
+   						<a class ="navButton" id="readingNav">Reading/Visual</a>
+    					<a class= "navButton" id="visualNav">Visual/Auditory</a>
+    					<a class= "navButton" id="writingNav">Hands-On/Writing</a>
   					</div>
 				</div>
 				
@@ -51,7 +52,6 @@
 		</div>
 
 	<div class="container">
- 		 <h2>Periodic Table</h2>
  		 
  		 <iframe width="300" height="200"
  		 	 src={{video}}>
