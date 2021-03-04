@@ -11,6 +11,7 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/quiz.js"></script>
+	<script src="/js/navbar.js"></script>
 </head>
 
 
@@ -32,10 +33,9 @@
 				<div class="dropdown">
   					<button  class="dropbtn" id = "btnhome">Hands-On/Writing </button>
   					<div id="myDropdown" class="dropdown-content">
-   						<a href="/reading/chemistry">Reading/Visual</a>
-    					<a href="/visual/chemistry">Visual/Auditory</a>
-    					<a href="/writing">Hands-On/Writing</a>
-  					</div>
+   						<a class ="navButton" id="readingNav">Reading/Visual</a>
+    					<a class= "navButton" id="visualNav">Visual/Auditory</a>
+    					<a class= "navButton" id="writingNav">Hands-On/Writing</a>  					</div>
 				</div>
 				
 				<button class = "streaklesson"> Current Streak: 1</button>
@@ -79,8 +79,8 @@
 		<br>
 	<div id="question2">
 		<h4>{{question2}}</h4>
-			<form class="form-inline" action="/topic.php">
-				<input type="topic" >
+			<form class="form-inline" action="/action_page.php" method="get" id ="quizQuestion2">
+				<input type="text" >
 				<button type="submit" class="btn btn-primary">check</button>
 			</form>
 	</div>

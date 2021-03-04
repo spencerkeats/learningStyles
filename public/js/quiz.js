@@ -6,6 +6,9 @@ $(document).ready(function() {
 function initializePage(){
 	console.log("plz");
 	$(".quizOption").click(buttonClick);
+	
+	$("#quizQuestion2").submit(questionCheck);
+
 	}
 	
 function buttonClick(){
@@ -14,4 +17,9 @@ function buttonClick(){
 	console.log(buttonID);
 	// $("#" + buttonID).();
 	
+}
+
+function questionCheck(){
+	var answer = $('#quizQuestion2').val();
+	console.log(answer);
 }
