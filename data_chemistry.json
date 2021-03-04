@@ -1,14 +1,30 @@
 {
 	"lessons": [
 		{
+			
 			"title": "Chemistry",
 			"description": "The periodic table is a tabular arrangement of chemical elements that is arranged by increasing atomic number and groups elements according to recurring properties. The seven rows of the periodic table are called periods.",
 			"readingInformation" : ["The periodic table of the elements contains all of the chemical elements that have been discovered or made; they are arranged, in the order of their atomic numbers, in seven horizontal periods, with the lanthanoids (lanthanum, 57, to lutetium, 71) and the actinoids (actinium, 89, to lawrencium, 103) indicated separately below. The periods are of varying lengths. First there is the hydrogen period, consisting of the two elements hydrogen, 1, and helium, 2. Then there are two periods of eight elements each: the first short period, from lithium, 3, to neon, 10; and the second short period, from sodium, 11, to argon, 18. There follow two periods of 18 elements each: the first long period, from potassium 19, to krypton, 36; and the second long period, from rubidium, 37, to xenon, 54. The first very long period of 32 elements, from cesium, 55, to radon, 86, is condensed into 18 columns by the omission of the lanthanoids (which are indicated separately below), permitting the remaining 18 elements, which are closely similar in their properties to corresponding elements of the first and second long periods, to be placed directly below these elements. The second very long period, from francium, 87, to oganesson, 118, is likewise condensed into 18 columns by the omission of the actinoids." , "\n The six noble gases—helium, neon, argon, krypton, xenon, and radon—occur at the ends of the six completed periods and constitute the Group 18 (0) group of the periodic system. It is customary to refer to horizontal series of elements in the table as periods and vertical series as groups. The seven elements lithium to fluorine and the seven corresponding elements sodium to chlorine are placed in the seven groups, 1 (Ia), 2 (IIa), 13 (IIIa), 14 (IVa), 15 (Va), 16 (VIa), and 17 (VIIa), respectively. The 17 elements of the fourth period, from potassium, 19, to bromine, 35, are distinct in their properties and are considered to constitute Groups 1–17 (Ia–VIIa) of the periodic system. The first group, the alkali metals, thereby includes, in addition to lithium and sodium, the metals from potassium down the table to francium but not the much less similar metals of Group 11 (Ib; copper, etc.). Also the second group, the alkaline-earth metals, is considered to include beryllium, magnesium, calcium, strontium, barium, and radium but not the elements of Group 12 (IIb). The boron group includes those elements in Group 13 (IIIa). The other four groups are as follows: the carbon group, 14 (IVa), consists of carbon, silicon, germanium, tin, lead, and flerovium; the nitrogen group, 15 (Va), includes nitrogen, phosphorus, arsenic, antimony, bismuth, and moscovium; the oxygen group, 16 (VIa), includes oxygen, sulfur, selenium, tellurium, polonium, and livermorium; and the halogen group, 17 (VIIa), includes fluorine, chlorine, bromine, iodine, astatine, and tennessine." ],
 			"image": "/images/periodictable.png",
-			"video": "https://www.youtube.com/embed/rz4Dd1I_fX0"
-
+			"video": "https://www.youtube.com/embed/rz4Dd1I_fX0",
+			
+			"question1": "1. What is the first element on the periodic table?",
+			"question1OptionA": "a. Boron",
+			"question1OptionB": "b. Hydrogen",
+			"question1OptionC": "c. Carbon",
+			"question1OptionD": "d. Helium",
+			"question1Answer": "B",
+			"question2": "2. What is Sulfur's atomic number?",
+			"question2Answer": "16",
+			"question3": "3. Which element is considered a halogen?",
+			"question3OptionA": "a. Boron",
+			"question3OptionB": "b. Hydrogen",
+			"question3OptionC": "c. Carbon",
+			"question3OptionD": "d. Helium",
+			"question3Answer": "D",
+			"question4": "4. What group does Sulfur belong to?"
 
 		}
 	]
 
-	}
+}
