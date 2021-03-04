@@ -7,8 +7,60 @@
 			"optionB": "b. Hydrogen",
 			"optionC": "c. Carbon",
 			"optionD": "d. Helium",
-			"correct": "B"
-		}
+			"correct": "b"
+		},
+
+		{
+			"number": "2",
+			"phrase": "2. What is Sulfur's atomic number?",
+			"correct": "16"
+
+		},
+
+		{
+			"number": "3",
+			"phrase": "3. Which of the following elements is considered a halogen?",
+			"optionA": "a. Titanium",
+			"optionB": "b. Nitrogen",
+			"optionC": "c. Chlorine",
+			"optionD": "d. Helium",
+			"correct": "c"
+
+		},
+
+		{
+			"number": "4",
+			"phrase": "4. What group does Lithium belong to?",
+			"correct": "Alkali Metals"
+
+		},
+
+
+		{
+			"number": "5",
+			"phrase": "5. What do the groups/families in the periodi table have in common?",
+			"optionA": "a. the number of electron shells",
+			"optionB": "b. the state of matter",
+			"optionC": "c. the amount of isotopes",
+			"optionD": "d. similar physical and chemical properties",
+			"correct": "d"
+
+		},
+
+		{
+			"number": "6",
+			"phrase": "6. All of the following are physical properties of metals except:",
+			"optionA": "a. luster",
+			"optionB": "b. malleability",
+			"optionC": "c. corrosion",
+			"optionD": "d. low melting points",
+			"correct": "d"
+
+		},
+
+
+
+
 	]
 
 	}

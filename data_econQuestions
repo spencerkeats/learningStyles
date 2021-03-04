@@ -1,0 +1,74 @@
+{
+	"economicsQuestions": [
+		{
+			"number": "1",
+			"phrase": "1. Which statement does not relate to the role of the economist?",
+			"optionA": "a. Forecasting the effects of a change in government policy",
+			"optionB": "b. Attempting explain the causes of economic phenomena ",
+			"optionC": "c. Identifying ways to make society fairer",
+			"optionD": "d. Measuring general changes in price level ",
+			"correct": "c"
+		},
+
+		{
+			"number": "2",
+			"phrase": "2. The need for exchange exists because ",
+			"optionA": "a. Consumers have both wants and needs",
+			"optionB": "b. Free goods have no opportunity cost ",
+			"optionC": "c. Unemployment will fall as a result of exchange ",
+			"optionD": "d. Specialization and the decision of labour exist",
+			"correct": "d"
+
+		},
+
+		{
+			"number": "3",
+			"phrase": "3. Adam Smith was",
+			"optionA": "a. An english poet ",
+			"optionB": "b. A scottish economist",
+			"optionC": "c. An American political philosopher ",
+			"optionD": "d. A Welsh geologist",
+			"correct": "b"
+
+		},
+
+		{
+			"number": "4",
+			"phrase": "4. An increase in the price of a product will reduce the amount od it purchased because?",
+			"optionA": "a. Supply curves are upsloping ",
+			"optionB": "b. The higher price means that real incomes have risen",
+			"optionC": "c. Consumers will substitute other products for the one whose price has risen",
+			"optionD": "d. Consumers substitute relatively high-priced for relatively low-priced produced  ",
+			"correct": "c"
+
+		},
+
+
+		{
+			"number": "5",
+			"phrase": "5. Which of the following will not cause the demand for product K to change?",
+			"optionA": "a. a change in the price of close-substitute product J",
+			"optionB": "b. an increase in consumer incomes",
+			"optionC": "c. a change in the price of K",
+			"optionD": "d. change in consumer tastes",
+			"correct": "c"
+
+		},
+
+		{
+			"number": "6",
+			"phrase": "6. Which of the following would not shift the demand curve for beef?",
+			"optionA": "a. A widely publicized study which indicates beef increases one’s cholesterol ",
+			"optionB": "b. A reduction in the price of cattle feed",
+			"optionC": "c. An effective advertising campaign by pork producers",
+			"optionD": "d. A change in the incomes of beef consumers",
+			"correct": "b"
+
+		},
+
+
+
+
+	]
+
+	}

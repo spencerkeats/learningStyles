@@ -2,9 +2,27 @@
 	"lessons": [
 		{
 			"title": "Psychology",
-			"description": "Psychology is a broad and diverse field that encompasses the study of human thought, behavior, development, personality, emotion, motivation, and more. ",
+			"description": "Psychology is the scientific study of the mind and behavior, according to the American Psychological Association. Psychology is a multifaceted discipline and includes many sub-fields of study such areas as human development, sports, health, clinical, social behavior and cognitive processes.",
+			"information": [
+
+				{
+					"paragraph1": "You may wonder why there are so many different psychology approaches and whether one approach is correct and others wrong. \n Most psychologists would agree that no one approach is correct, although in the past, in the early days of psychology, the behaviorist would have said their perspective was the only truly scientific one. \n Each approach has its strengths and weaknesses, and brings something different to our understanding of human behavior.  For this reason, it is important that psychology does have different perspectives on the understanding and study of human and animal behavior.",
+					"paragraph2": "Biological Approach",
+					"paragraph3" : "Biopsychologists look at how your nervous system, hormones and genetic makeup affect your behavior. Biological psychologists explore the connection between your mental states and your brain, nerves and hormones to explore how your thoughts, moods and actions are shaped.",
+					"paragraph4" : "Psychodynamic Approach",
+					"paragraph5" : "The psychodynamic approach was promoted by Sigmund Freud, who believed that many of our impulses are driven by sex.  Psychologists in this school of thought believe that unconscious drives and experiences from early childhood are at the root of your behaviors and that conflict arises when societal restrictions are placed on these urges. \n There are a lot of jokes about Freud and his now mostly outdated theories.  But have you ever thought that something about who you are today comes from your experiences as a child?   Say, you blame your smoking habit on an oral fixation that stems from being weaned from breastfeeding too early as a baby.  Well, that also comes from Freud's theories, and it was an idea that revolutionized how we see ourselves.",
+					"paragraph6" : "Behavioral Approach",
+					"paragraph7" : "Behavioral psychologists believe that external environmental stimuli influence your behavior and that you can be trained to act a certain way. Behaviorists like B.F. Skinner don't believe in free will. They believe that you learn through a system of reinforcements and punishment. \n The behavioral approach is really effective when you don't care what someone thinks, as long as you get the desired behavior. The influence of these theories affects us every day and throughout our lives, impacting everything from why we follow the rules of the road when driving to how advertising companies build campaigns to get us to buy their products.",
+					"paragraph8" : "Cognitive Approach",
+					"paragraph9" : "In contrast to behaviorists, cognitive psychologists believe that your behavior is determined by your expectations and emotions. Cognitive psychologist Jean Piaget would argue that you remember things based on what you already know.  You also solve problems based on your memory of past experiences. \n So, with this approach, we turn away from people as machines without free will and delve back into thoughts and feelings. How you act is based upon internal processes, and there is much more stress upon individuals.  From a cognitive perspective, your expectations of an upcoming party will affect how you feel and act while you're there and will color your memory of the night after you return home.",
+					"paragraph10" : "Humanistic Approach",
+					"paragraph11" : "Humanistic psychologists believe that you're essentially good and that you're motivated to realize your full potential. Psychologists from this camp focus on how you can feel good about yourself by fulfilling your needs and goals. The prominent humanistic psychologist Carl Rogers called his patients 'clients' and offered a supportive environment in which clients could gain insight into their own feelings. \n In contrast to the behavioral approach, the humanistic approach works on individual empowerment.  Whether you are right or not, in a larger sense, you are motivated to be the best person you can be. All your choices come from trying to improve your life.  So, if you're trying to cut back on your nightly wine consumption, a humanistic therapist would be"
+
+				}
+
+			],
 			"image": "/images/psychology.png",
-			"video": "https://www.youtube.com/embed/vo4pMVb0R6M"
+			"video": ["https://www.youtube.com/embed/vo4pMVb0R6M", "https://www.youtube.com/embed/pnB8uh37SWs"]
 		}
 	]
 

@@ -1,0 +1,63 @@
+{
+	"mathQuestions": [
+		{
+			"number": "1",
+			"phrase": "1. A father gave $500 to his two sons. He gave X dollars to one son. Which of the following expressions correctly shows the amount he gave to the other son.",
+			"optionA": "a. $500 + X",
+			"optionB": "b. $500 ÷ X",
+			"optionC": "c. $500 x X",
+			"optionD": "d. $500 - X",
+			"correct": "d"
+		},
+
+		{
+			"number": "2",
+			"phrase": "2. Solve X where 5X = 20.",
+			"optionA": "a. 4",
+			"optionB": "b. 5",
+			"optionC": "c. 8",
+			"optionD": "d. 15",
+			"correct": "a"
+
+		},
+
+		{
+			"number": "3",
+			"phrase": "3. Solve X where 3X + 7 - 2 = 8.",
+			"optionA": "a. 1",
+			"optionB": "b. 2",
+			"optionC": "c. 3",
+			"optionD": "d. 4",
+			"correct": "a"
+
+		},
+
+		{
+			"number": "4",
+			"phrase": "4. Solve for X. 2(X+7) -3(2X-4) = -18",
+			"optionA": "a. X = 5  ",
+			"optionB": "b. X = 11",
+			"optionC": "c. X = -11",
+			"optionD": "d. X = -5",
+			"correct": "c"
+
+		},
+
+
+		{
+			"number": "5",
+			"phrase": "5. Given f(x) = 5x - 4, find the value of x if f(x) = 31?",
+			"optionA": "a. 7",
+			"optionB": "b. 27/5",
+			"optionC": "c. 151",
+			"optionD": "d. -7",
+			"correct": "a"
+
+		}
+
+
+
+
+	]
+
+	}

@@ -1,0 +1,66 @@
+{
+	"psychologyQuestions": [
+		{
+			"number": "1",
+			"phrase": "1. What is psychology?",
+			"optionA": "a. The study of cells ",
+			"optionB": "b. The study of mental processes and behavior ",
+			"optionC": "c. The study of nature and the environment",
+			"optionD": "d. The study of the past ",
+			"correct": "b"
+		},
+
+		{
+			"number": "2",
+			"phrase": "2. Which helps a psychologist to discover or confirm cause and effect relationship in behavior? ",
+			"correct": "Experimental"
+
+		},
+
+		{
+			"number": "3",
+			"phrase": "3. Which psychology perspective focuses on the study of the whole person:",
+			"optionA": "a. Biological perspective ",
+			"optionB": "b. Cognitive perspective",
+			"optionC": "c. Evolutionary perspective",
+			"optionD": "d. Humanistic perspective",
+			"correct": "d"
+
+		},
+
+		{
+			"number": "4",
+			"phrase": "4. According to Freud, the mind’s three components are:",
+			"optionA": "a. Ego, id, superego",
+			"optionB": "b. Unconscious, moral, immoral",
+			"optionC": "c. Primary, secondary, tertiary",
+			"optionD": "d. Oral, phallic, repression",
+			"correct": "a"
+
+		},
+
+
+		{
+			"number": "5",
+			"phrase": "5. The belief of Descartes that people were born with the ability to think and reason is called?",
+			"correct": "nativism"
+
+		},
+
+		{
+			"number": "6",
+			"phrase": "6. Who is the father of psychology?",
+			"optionA": "a. Sigmund Freud",
+			"optionB": "b. Wilhem Wundt",
+			"optionC": "c. William James",
+			"optionD": "d. B.F. Skinner",
+			"correct": "b"
+
+		},
+
+
+
+
+	]
+
+	}

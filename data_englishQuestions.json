@@ -1,0 +1,70 @@
+{
+	"englishQuestions": [
+		{
+			"number": "1",
+			"phrase": "1. What is another name for Old English?",
+			"optionA": "a. Middle English",
+			"optionB": "b. Celtic",
+			"optionC": "c. Anglo-Saxon",
+			"optionD": "d. British",
+			"correct": "c"
+		},
+
+		{
+			"number": "2",
+			"phrase": "2. The origins of the English language lie in which language family?",
+			"optionA": "a. Latin",
+			"optionB": "b. Spanish",
+			"optionC": "c. North American ",
+			"optionD": "d. Indo-European ",
+			"correct": "d"
+
+		},
+
+		{
+			"number": "3",
+			"phrase": "3. Which one of the following texts was composed during the Old English period?",
+			"optionA": "a. The Canterbury Tales ",
+			"optionB": "b. Beowulf ",
+			"optionC": "c. Shakespeare ",
+			"optionD": "d. Fyrst Boke of the Introduction of Knowledge",
+			"correct": "b"
+
+		},
+
+		{
+			"number": "4",
+			"phrase": "4. Syntax is the study of ",
+			"optionA": "a. Sentences",
+			"optionB": "b. Pronunciation of words",
+			"optionC": "c. Arragement of words",
+			"optionD": "d. Combination of phonemes and morphemes ",
+			"correct": "c"
+
+		},
+
+
+		{
+			"number": "5",
+			"phrase": "5. What are the two parts of syntax?",
+			"correct": "lexicon and computational"
+
+		},
+
+		{
+			"number": "6",
+			"phrase": "6. Phonemes are the smallest units of _____ in a spoken language. Morphemes are the smallest units of ____ in a language",
+			"optionA": "a. Sound; Meaning ",
+			"optionB": "b. Sound; Syntax",
+			"optionC": "c. Meaning; Sound ",
+			"optionD": "d. Meaning; Syntax",
+			"correct": "a"
+
+		},
+
+
+
+
+	]
+
+	}

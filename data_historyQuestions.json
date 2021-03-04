@@ -1,0 +1,74 @@
+{
+	"historyQuestions": [
+		{
+			"number": "1",
+			"phrase": "1. Independence day was first established as a holiday by congress in what year?",
+			"optionA": "a. 1853",
+			"optionB": "b. 1776",
+			"optionC": "c. 1938",
+			"optionD": "d. 1870",
+			"correct": "d"
+		},
+
+		{
+			"number": "2",
+			"phrase": "2. Who was the first president to live in the white house?",
+			"optionA": "a. John Adams ",
+			"optionB": "b. Thomas Jefferson ",
+			"optionC": "c. George Washington",
+			"optionD": "d. James Madison ",
+			"correct": "a"
+
+		},
+
+		{
+			"number": "3",
+			"phrase": "3. What do the colors of the American flag symbolize?",
+			"optionA": "a. Nothing",
+			"optionB": "b. Red: hardiness, White: purity, Blue: perseverance ",
+			"optionC": "c. Red: compassion, White: peace, Blue: remembrance ",
+			"optionD": "d. Red: revolution, White: stability, Blue: integrity",
+			"correct": "b"
+
+		},
+
+		{
+			"number": "4",
+			"phrase": "4. When was the bill of rights created?",
+			"optionA": "a. 1770",
+			"optionB": "b. 1890",
+			"optionC": "c. 1738",
+			"optionD": "d. 1789",
+			"correct": "d"
+
+		},
+
+
+		{
+			"number": "5",
+			"phrase": "5. From where did the 13 states become independent from?",
+			"optionA": "a. Russia ",
+			"optionB": "b. Great Britain ",
+			"optionC": "c. Spain ",
+			"optionD": "d. Belgium ",
+			"correct": "b"
+
+		},
+
+		{
+			"number": "6",
+			"phrase": "6. What is the bill of rights?",
+			"optionA": "a. The pages declaration separation from Britain",
+			"optionB": "b. The laws of the land",
+			"optionC": "c. The first ten amendments of the constitution",
+			"optionD": "d. The list of the 13 colonies with capitals",
+			"correct": "c"
+
+		},
+
+
+
+
+	]
+
+	}
