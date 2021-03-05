@@ -22,8 +22,8 @@ function navButtonClick(){
 	var slash = url.lastIndexOf('/')
 	var n = buttonID.lastIndexOf('N');
 	
-	var lastZero = url.lastIndexOf(0);
-	var site = url.substring(0, lastZero + 1);
+	var lastZero = url.lastIndexOf(".");
+	var site = url.substring(0, lastZero + 4);
 
 	var next = $(this).closest(".navButton").attr('id').substring(0,n);
 	var pageNum = site.length + next.length + 2;
