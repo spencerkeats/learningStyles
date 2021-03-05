@@ -1,16 +1,20 @@
+
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
 })
 
 function initializePage(){
-	console.log("plz");
-	$(".navButton").click(buttonClick);
+	console.log("plzNav");
+	$(".navButton").click(navButtonClick);
+	$(".quizOption").click(quizButtonClick);
+	
+	$("#quizQuestion2").submit(questionCheck);
 
 	}
 	
 
-function buttonClick(){
+function navButtonClick(){
 	
 	var buttonID = $(this).closest(".navButton").attr('id');
 	var url = window.location.href;
@@ -24,12 +28,38 @@ function buttonClick(){
 	var next = $(this).closest(".navButton").attr('id').substring(0,n);
 	var pageNum = site.length + next.length + 2;
 	var current = url.substring(slash + 1);
-	console.log(buttonID);
-	console.log(current);
-	console.log(slash);
-	console.log(next);
-	console.log(site);
+	//console.log(buttonID);
+	//console.log(current);
+	//console.log(slash);
+	//console.log(next);
+	//console.log(site);
 	// $("#" + buttonID).();
 	window.location.href =  site + "/"+ next + "/" + current;
 	
+}
+	
+function quizButtonClick(){
+	
+	var buttonID = $(this).closest(".quizOption").attr('id');
+	console.log(buttonID);
+	var choice = buttonID.substring(buttonID.length-1).trim();
+	console.log(choice);
+	var currQ = buttonID.charAt(1).trim();
+	var currA = $("#q" + currQ + "Answer").text().trim();
+	console.log(currA);
+
+	if(choice == currA){
+		console.log("correct");
+
+	}
+	else{
+		console.log("incorrect");
+		
+	}
+	
+}
+
+function questionCheck(){
+	var answer = $('#quizQuestion2').val();
+	console.log(answer);
 }
