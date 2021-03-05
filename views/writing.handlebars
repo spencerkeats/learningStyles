@@ -10,7 +10,6 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/quiz.js"></script>
 	<script src="/js/navbar.js"></script>
 </head>
 
@@ -74,12 +73,13 @@
 			<button class="quizOption" id="q1optionB">{{question1OptionB}}</button>
 			<button class="quizOption" id="q1optionC">{{question1OptionC}}</button>
 			<button class="quizOption" id="q1optionD">{{question1OptionD}}</button>
+			<p hidden class = "answers" id= "q1Answer">{{question1Answer}} </p>
 	</div>
 
 		<br>
 	<div id="question2">
 		<h4>{{question2}}</h4>
-			<form class="form-inline" action="/action_page.php" method="get" id ="quizQuestion2">
+			<form class="form-inline" action="/add" method="get" id ="quizQuestion2">
 				<input type="text" >
 				<button type="submit" class="btn btn-primary">check</button>
 			</form>
@@ -91,6 +91,7 @@
 			<button class="quizOption" id="q3optionB"> {{question3OptionB}} </button>
 			<button class="quizOption" id="q3optionC"> {{question3OptionC}} </button>
 			<button class="quizOption" id="q3optionD"> {{question3OptionD}} </button>
+			<p hidden class = "answers" id= "q3Answer">{{question3Answer}} </p>
 	</div>
 		<br>
 
