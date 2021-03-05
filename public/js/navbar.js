@@ -50,10 +50,12 @@ function quizButtonClick(){
 
 	if(choice == currA){
 		console.log("correct");
+		alert("Correct!");
 
 	}
 	else{
 		console.log("incorrect");
+		alert("Incorrect!");
 		
 	}
 	
