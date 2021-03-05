@@ -10,6 +10,9 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+
+	{{> facebook}}
+<script src="/js/facebook.js"></script>
 	
 </head>
 
@@ -35,7 +38,11 @@
 
 	<h1 class = "title"> Account Information </h1>
 
+	<fb:login-button scope="public_profile,email" data-size="large" onlogin="checkLoginState();" data-auto-logout-link="true" >
+</fb:login-button>
+
 	<h2 style="font-size: 30px"> Style Information </h2>
+
 
 
 	<h5 style = "font-weight: bold; font-size: 25px"  > Visual/Auditory </h5>
