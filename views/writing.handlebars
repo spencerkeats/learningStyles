@@ -79,17 +79,13 @@
 		<br>
 	<div id="question2">
 		<h4>{{question2}}</h4>
-<<<<<<< HEAD
 			<button class="quizOption" id="q2optionA"> {{question2OptionA}}</button>
 			<button class="quizOption" id="q2optionB"> {{question2OptionB}} </button>
 			<button class="quizOption" id="q2optionC"> {{question2OptionC}} </button>
 			<button class="quizOption" id="q2optionD"> {{question2OptionD}} </button>
-=======
-			<form class="form-inline" action="/add" method="get" id ="quizQuestion2">
-				<input type="text" >
-				<button type="submit" class="btn btn-primary">check</button>
-			</form>
->>>>>>> 8b17781f233eef87ecfd2ea7326bd793ead04621
+			<p hidden class = "answers" id= "q2Answer">{{question2Answer}} </p>
+
+
 	</div>
 		<br>
 	<div id="question3">
@@ -108,6 +104,7 @@
 			<button class="quizOption" id="q4optionB"> {{question4OptionB}} </button>
 			<button class="quizOption" id="q4optionC"> {{question4OptionC}} </button>
 			<button class="quizOption" id="q4optionD"> {{question4OptionD}} </button>
+			<p hidden class = "answers" id= "q4Answer">{{question4Answer}} </p>
 	</div>
 		<br>
 
@@ -117,6 +114,7 @@
 			<button class="quizOption" id="q5optionB"> {{question5OptionB}} </button>
 			<button class="quizOption" id="q5optionC"> {{question5OptionC}} </button>
 			<button class="quizOption" id="q5optionD"> {{question5OptionD}} </button>
+			<p hidden class = "answers" id= "q5Answer">{{question5Answer}} </p>
 	</div>
 		<br>
 
@@ -126,6 +124,7 @@
 			<button class="quizOption" id="q6optionB"> {{question6OptionB}} </button>
 			<button class="quizOption" id="q6optionC"> {{question6OptionC}} </button>
 			<button class="quizOption" id="q6optionD"> {{question6OptionD}} </button>
+			<p hidden class = "answers" id= "q6Answer">{{question6Answer}} </p>
 	</div>
 		<br>
 		{{/each}}
