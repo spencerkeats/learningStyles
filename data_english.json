@@ -7,7 +7,49 @@
 			"image": "/images/english.png",
 			"video1": "https://www.youtube.com/embed/aEH2GkuRIHs",
 			"video2" : "https://www.youtube.com/embed/rw62E9v9DnU", 
-			"video3" : "https://www.youtube.com/embed/9v2BYta1PFM"
+			"video3" : "https://www.youtube.com/embed/9v2BYta1PFM",
+
+			"question1": "1. What is another name for Old English?",
+			"question1OptionA": "a. Middle English",
+			"question1OptionB": "b. Celtic",
+			"question1OptionC": "c. Anglo-Saxon",
+			"question1OptionD": "d. British",
+			"question1Answer": "C",
+
+			"question2": "2. The origins of the English language lie in which language family?",
+			"question2OptionA": "a. Latin",
+			"question2OptionB": "b. Spanish",
+			"question2OptionC": "c. North American",
+			"question2OptionD": "d. Indo-European",
+			"question2Answer": "D",
+
+			"question3": "3. Which one of the following texts was composed during the Old English period?",
+			"question3OptionA": "a. The Canterbury Tales",
+			"question3OptionB": "b. Beowulf",
+			"question3OptionC": "c. Shakespeare",
+			"question3OptionD": "d. Fyrst Boke of the Introduction of Knowledge",
+			"question3Answer": "B",
+
+			"question4": "4. Syntax is the study of ",
+			"question4OptionA": "a. Sentences",
+			"question4OptionB": "b. Pronunciation of words",
+			"question4OptionC": "c. Arragement of words",
+			"question4OptionD": "d. Combination of phonemes and morphemes",
+			"question4Answer": "C",
+
+			"question5": "5. What are the two parts of syntax?",
+			"question5OptionA": "a. Symbolism and Imagery",
+			"question5OptionB": "b. Metaphors and Similes",
+			"question5OptionC": "c. Subject and Verb",
+			"question5OptionD": "d. lexical and computational",
+			"question5Answer": "D",
+
+			"question6": "6. Phonemes are the smallest units of _____ in a spoken language. Morphemes are the smallest units of ____ in a language.",
+			"question6OptionA": "a. Sound; Meaning",
+			"question6OptionB": "b. Sound; Syntax",
+			"question6OptionC": "c. Meaning; Sound",
+			"question6OptionD": "d. Meaning; Syntax",
+			"question6Answer": "A"
 		}
 	]
 

@@ -7,7 +7,50 @@
 			"image": "/images/economics.png",
 			"video1": "https://www.youtube.com/embed/3ez10ADR_gM",
 			"video2" : "https://www.youtube.com/embed/8JYP_wU1JTU",
-			"video3" : "https://www.youtube.com/embed/g9aDizJpd_s"
+			"video3" : "https://www.youtube.com/embed/g9aDizJpd_s",
+
+
+			"question1": "1. Which statement does not relate to the role of the economist?",
+			"question1OptionA": "a. Forecasting the effects of a change in government policy",
+			"question1OptionB": "b. Attempting explain the causes of economic phenomena ",
+			"question1OptionC": "c. Identifying ways to make society fairer",
+			"question1OptionD": "d. Measuring general changes in price level ",
+			"question1Answer": "C",
+
+			"question12": "2. The need for exchange exists because ",
+			"question2OptionA": "a. Consumers have both wants and needs",
+			"question2OptionB": "b. Free goods have no opportunity cost ",
+			"question2OptionC": "c. Unemployment will fall as a result of exchange ",
+			"question2OptionD": "d. Specialization and the decision of labour exist",
+			"question2Answer": "D",
+
+			"question3": "3. Adam Smith was",
+			"question3OptionA": "a. An english poet ",
+			"question3OptionB": "b. A scottish economist",
+			"question3OptionC": "c. An American political philosopher",
+			"question3OptionD": "d. A Welsh geologist",
+			"question3Answer": "B",
+
+			"question4": "4. An increase in the price of a product will reduce the amount od it purchased because?",
+			"question4OptionA": "a. Supply curves are upsloping ",
+			"question4OptionB": "b. The higher price means that real incomes have risen",
+			"question4OptionC": "c. Consumers will substitute other products for the one whose price has risen",
+			"question4OptionD": "d. Consumers substitute relatively high-priced for relatively low-priced produced",
+			"question4Answer": "C",
+
+			"question5": "5. Which of the following will not cause the demand for product K to change?",
+			"question5OptionA": "a. a change in the price of close-substitute product J",
+			"question5OptionB": "b. an increase in consumer incomes",
+			"question5OptionC": "c. a change in the price of K",
+			"question5OptionD": "d. change in consumer tastes",
+			"question5Answer": "C",
+
+			"question6": "6. Which of the following would not shift the demand curve for beef?",
+			"question6OptionA": "a.  A widely publicized study which indicates beef increases one’s cholesterol ",
+			"question6OptionB": "b.  A reduction in the price of cattle feed",
+			"question6OptionC": "c.  An effective advertising campaign by pork producers",
+			"question6OptionD": "d.  A change in the incomes of beef consumers",
+			"question6Answer": "B"
 
 		}
 	]

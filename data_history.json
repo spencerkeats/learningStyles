@@ -7,7 +7,49 @@
 			"image": "/images/history.png",
 			"video1": "https://www.youtube.com/embed/hLE-5ElGlPM",
 			"video2": "https://www.youtube.com/embed/6E9WU9TGrec",
-			"video3" : "https://www.youtube.com/embed/ghgPq2wjQUQ"
+			"video3" : "https://www.youtube.com/embed/ghgPq2wjQUQ",
+
+			"question1": "1. Independence day was first established as a holiday by congress in what year?",
+			"question1OptionA": "a. 1853",
+			"question1OptionB": "b. 1776",
+			"question1OptionC": "c. 1938",
+			"question1OptionD": "d. 1870",
+			"question1Answer": "D",
+
+			"question2": "2. Who was the first president to live in the white house?",
+			"question2OptionA": "a. John Adams",
+			"question2OptionB": "b. Thomas Jefferson",
+			"question2OptionC": "c. George Washington",
+			"question2OptionD": "d. James Madison ",
+			"question2Answer": "A",
+
+			"question3": "3. What do the colors of the American flag symbolize?",
+			"question3OptionA": "a. Nothing",
+			"question3OptionB": "b. Red: hardiness, White: purity, Blue: perseverance",
+			"question3OptionC": "c. Red: compassion, White: peace, Blue: remembrance",
+			"question3OptionD": "d. Red: revolution, White: stability, Blue: integrity",
+			"question3Answer": "B",
+
+			"question4": "4. When was the bill of rights created?",
+			"question4OptionA": "a. 1770",
+			"question4OptionB": "b. 1890",
+			"question4OptionC": "c. 1738",
+			"question4OptionD": "d. 1789",
+			"question4Answer": "D",
+
+			"question5": "5. From where did the 13 states become independent from?",
+			"question5OptionA": "a. Russia",
+			"question5OptionB": "b. Great Britain",
+			"question5OptionC": "c. Spain",
+			"question5OptionD": "d. Belgium",
+			"question5Answer": "B",
+
+			"question6": "6. What is the bill of rights?",
+			"question6OptionA": "a. The pages declaration separation from Britain",
+			"question6OptionB": "b. The laws of the land",
+			"question6OptionC": "c. The first ten amendments of the constitution",
+			"question6OptionD": "d. he list of the 13 colonies with capitals",
+			"question6Answer": "C"
 
 		}
 	]

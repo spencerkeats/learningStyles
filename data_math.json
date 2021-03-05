@@ -7,7 +7,49 @@
 			"image": "/images/math.png",
 			"video1": "https://www.youtube.com/embed/64643Op6WJo",
 			"video2" : "https://www.youtube.com/embed/NybHckSEQBI",
-			"video3" : "https://www.youtube.com/embed/PVoTRu3p6ug"
+			"video3" : "https://www.youtube.com/embed/PVoTRu3p6ug",
+
+			"question1": "1. A father gave $500 to his two sons. He gave X dollars to one son. Which of the following expressions correctly shows the amount he gave to the other son.",
+			"question1OptionA": "a. $500 + X",
+			"question1OptionB": "b. $500 ÷ X",
+			"question1OptionC": "c. $500 x X",
+			"question1OptionD": "d. $500 - X",
+			"question1Answer": "D",
+
+			"question2": "2. Solve X where 5X = 20.",
+			"question2OptionA": "a. 4",
+			"question2OptionB": "b. 5",
+			"question2OptionC": "c. 8",
+			"question2OptionD": "d. 15",
+			"question2Answer": "A",
+
+			"question3": "3. Solve X where 3X + 7 - 2 = 8.",
+			"question3OptionA": "a. 1",
+			"question3OptionB": "b. 2",
+			"question3OptionC": "c. 3",
+			"question3OptionD": "d. 4",
+			"question3Answer": "A",
+
+			"question4": "4. Solve for X. 2(X+7) -3(2X-4) = -18",
+			"question4OptionA": "a. X = 5 ",
+			"question4OptionB": "b. X = 11 ",
+			"question4OptionC": "c. X = -11 ",
+			"question4OptionD": "d. X = -5 ",
+			"question4Answer": "C",
+
+			"question5": "5. Given f(x) = 5x - 4, find the value of x if f(x) = 31?",
+			"question5OptionA": "a. 7",
+			"question5OptionB": "b. 27/5",
+			"question5OptionC": "c. 151",
+			"question5OptionD": "d. -7",
+			"question5Answer": "A",
+
+			"question6": "The expression (W⁴ - 36) is equivalent to ",
+			"question6OptionA": "a. (w² - 18) (w² - 18) ",
+			"question6OptionB": "b. (w² + 18) (w² - 18)",
+			"question6OptionC": "c. (w² - 6) (w² - 6)",
+			"question6OptionD": "d. (w² + 6) (w² - 6)",
+			"question6Answer": "D"
 
 		}
 	]

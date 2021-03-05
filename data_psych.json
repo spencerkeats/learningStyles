@@ -24,7 +24,53 @@
 			"image": "/images/psychology.png",
 			"video1": "https://www.youtube.com/embed/vo4pMVb0R6M", 
 			"video2" : "https://www.youtube.com/embed/pnB8uh37SWs",
-			"video3" : "https://www.youtube.com/embed/9eZYufPP2-o"
+			"video3" : "https://www.youtube.com/embed/9eZYufPP2-o",
+
+			"question1": "1. What is psychology?",
+			"question1OptionA": "a. The study of cells",
+			"question1OptionB": "b. The study of mental processes and behavior",
+			"question1OptionC": "c. The study of nature and the environment",
+			"question1OptionD": "d. The study of the past ",
+			"question1Answer": "B",
+
+			"question2": "2. Which helps a psychologist to discover or confirm cause and effect relationship in behavior?",
+			"question2OptionA": "a. Correlational Study",
+			"question2OptionB": "b. Case Study",
+			"question2OptionC": "c. Experimental Study",
+			"question2OptionD": "d. Longitutinal Study",
+			"question2Answer": "C",
+
+			"question3": "3. Which psychology perspective focuses on the study of the whole person:",
+			"question3OptionA": "a. Biological perspective",
+			"question3OptionB": "b. Cognitive perspective",
+			"question3OptionC": "c. Evolutionary perspective",
+			"question3OptionD": "d. Humanistic perspective",
+			"question3Answer": "D",
+
+			"question4": "4. According to Freud, the mind’s three components are:",
+			"question4OptionA": "a. Ego, id, superego",
+			"question4OptionB": "b. Unconscious, moral, immoral",
+			"question4OptionC": "c. Primary, secondary, tertiary",
+			"question4OptionD": "d. Oral, phallic, repression",
+			"question4Answer": "A",
+
+			"question5": "5. The belief of Descartes that people were born with the ability to think and reason is called?",
+			"question5OptionA": "a. Dualism",
+			"question5OptionB": "b. Materialism",
+			"question5OptionC": "c. Nativism",
+			"question5OptionD": "d. Functionalism",
+			"question5Answer": "C",
+
+			"question6": "6. Who is the father of psychology?",
+			"question6OptionA": "a. Sigmund Freud",
+			"question6OptionB": "b. Wilhem Wundt",
+			"question6OptionC": "c. B.F. Skinner",
+			"question6OptionD": "d. William James",
+			"question6Answer": "B"
+
+
+
+
 
 		}
 	]
