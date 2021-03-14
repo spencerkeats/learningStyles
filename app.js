@@ -20,7 +20,7 @@ var login = require ('./routes/login');
 var settings = require('./routes/settings');
 
 var writing = require('./routes/writing');
-
+var add = require('./routes/add');
 
 //<<<<<<< Updated upstream
 var visual = require('./routes/visual')
@@ -71,6 +71,7 @@ app.get('/writing/:id', writing.view);
 //<<<<<<< Updated upstream
 app.get('/visual', visual.view);
 //=======
+app.get('/add', add.addUser);
 app.get('/',login.view);
 app.get('/create', create.view);
 //>>>>>>> Stashed changes
